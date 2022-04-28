@@ -71,7 +71,7 @@ public:
 		while (!que.empty())
 		{
 			item = que.front();
-			cout << item->getData() << " \n";
+			cout << item->getData() << " ";
 			if (item->getLeft() != NULL)
 				que.push(item->getLeft());
 			if (item->getRight() != NULL)
